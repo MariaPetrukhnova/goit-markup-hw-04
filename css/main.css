@@ -105,6 +105,15 @@ h1, h2, h3, h4, h5, h6, p, ul {
     letter-spacing: 0.02em;
 }
 
+.contacts-icon {
+    fill: var(--main-color);
+    margin-right: 10px;
+}
+
+.contacts-icon:hover, .contacts-icon:focus {
+    fill: var(--accent-color);
+}
+
 .hero {
     background-image: url(../images/hero-bcg.jpg),
     linear-gradient(var(--hero-overlay), var(--hero-overlay));
