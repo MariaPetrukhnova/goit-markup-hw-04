@@ -187,22 +187,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     background-color: var(--secondary-bcg);
     padding: 25px 100px;
 }
- 
-.features-bcg.antenna {
-    background-image: url(../images/antenna.svg);
-}
-
-.features-bcg.clock {
-    background-image: url(../images/clock.svg);
-}
-
-.features-bcg.diagram {
-    background-image: url(../images/diagram.svg);
-}
-
-.features-bcg.astronaut {
-    background-image: url(../images/astronaut.svg);
-}
 
 .features-title {
     color: var(--title-color);
