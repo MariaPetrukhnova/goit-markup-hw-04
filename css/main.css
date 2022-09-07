@@ -253,9 +253,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border: none;
 }
 
-.social-icon {
+.team .social-icon {
     display: inline-block;
-    fill: var(--white-color);
+    fill: var(--logo-icons);
+}
+
+.team .social-icon:hover, .social-icon:focus {
+    fill: var(--white-color)
 }
 
 .clients .flex-block {
@@ -269,8 +273,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
     display: block;
 }
 
-.clients-link:hover, .logo-clients-link:focus {
+.clients-link:hover, .clients-link:focus {
     border-color: var(--accent-color);
+}
+
+.clients-icon {
+    fill: var(--logo-icons);
 }
 
 .clients-icon:hover, .clients-link:focus {
@@ -332,6 +340,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .join-block .social-link:hover, .join-block .social-link:focus {
     background-color: var(--accent-color);
+}
+
+.join-block .social-icon {
+    fill: var(--white-color);
 }
 
 .join-title {
