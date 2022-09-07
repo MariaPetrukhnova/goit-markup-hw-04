@@ -98,7 +98,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .contacts {
     display: flex;
-    margin-left: 344px;
+    align-items: center;
+    margin-left: auto;
     color: var(--main-color);
     font-weight: 500;
     line-height: 1.14;
