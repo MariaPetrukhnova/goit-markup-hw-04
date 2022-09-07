@@ -266,14 +266,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
     height: 44px;
 }
 
-.social-link:hover, .social-item:focus {
+.social-link:hover, .social-link:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
     border: none;
-}
-
-.social-link:not(:last-child) {
-    margin-right: 10px; 
 }
 
 .social-icon {
@@ -344,9 +340,17 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin-top: 72px;
 }
 
+.join-block .social-item:not(:last-child) {
+    margin-right: 10px;
+}
+
 .join-block .social-link {
     background-color: var(--footer-links);
     border-radius: 50%;
+}
+
+.join-block .social-link:hover, .join-block .social-link:focus {
+    background-color: var(--accent-color);
 }
 
 .join-title {
