@@ -272,6 +272,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border: none;
 }
 
+.social-link:not(:last-child) {
+    margin-right: 10px; 
+}
+
 .social-icon {
     display: inline-block;
     fill: var(--white-color);
@@ -285,14 +289,15 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding: 16px 32px;
     border: 1px solid var(--logo-icons);
     border-radius: 4px;
-    /*temporary*/
-    width: 170px;
-    height: 92px;
     display: block;
 }
 
-.logo-bcg:hover, .logo-bcg:focus {
+.clients-link:hover, .logo-clients-link:focus {
     border-color: var(--accent-color);
+}
+
+.clients-icon:hover, .clients-link:focus {
+    fill: var(--accent-color);
 }
 
 .page-footer {
@@ -350,6 +355,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--white-color);
+    margin-bottom: 20px;
 }
 
 .filter-item:not(:last-child) {
