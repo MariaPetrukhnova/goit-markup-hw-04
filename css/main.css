@@ -269,6 +269,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border: none;
 }
 
+.social-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    fill: currentColor;
+}
+
 .clients .flex-block {
     justify-content: space-between;
 }
