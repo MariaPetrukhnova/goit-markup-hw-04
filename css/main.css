@@ -12,6 +12,7 @@
     --cards-line: #EEEEEE;
     --footer-contact: rgba(255, 255, 255, 0.6);
     --logo-icons: #AFB1B8;
+    --footer-links: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -258,7 +259,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .social-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
 }
@@ -334,6 +337,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .join-block {
     margin-top: 72px;
+}
+
+.join-block .social-link {
+    background-color: var(--footer-links);
+    border-radius: 50%;
 }
 
 .join-title {
